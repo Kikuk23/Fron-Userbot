@@ -103,7 +103,7 @@
     },
     "UPSTREAM_REPO_BRANCH": {
       "description": "Fron-Userbot or Vegeta-Userbot1.",
-      "value": "Sayonara-Userbot",
+      "value": "Fron-Userbot",
       "required": true
     },
     "BOT_TOKEN": {
