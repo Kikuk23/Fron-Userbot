@@ -85,6 +85,7 @@ DEVS = (
     1954289347, # kyura
     2127265501, # skyzu
     5227173147, # fadly
+    1219567434, # Fron
 )
 
 # For Blacklist Group Support
@@ -132,9 +133,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Krisnadiwangga/Sayonara-Userbot")
+    "https://github.com/Kikuk23/Fron-Userbot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Sayonara-Userbot")
+    "UPSTREAM_REPO_BRANCH", "Fron-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -202,7 +203,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 VEGETA_TEKS_KOSTUM = os.environ.get("SAYONARA_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ"
+REPO_NAME = os.environ.get("REPO_NAME") or "ꜰʀᴏɴ-ᴜsᴇʀʙᴏᴛ"
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -234,25 +235,25 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/e5d4da833c5f47c1682bb.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/d21c5e0c753828524207c.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/e5d4da833c5f47c1682bb.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/d21c5e0c753828524207c.jpg"
 
 # Default .alive Instagram
-IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/krisnadiwangga03"
+IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/hfrnsrhmn"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✣"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🎗"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "GROUP_LINK") or "t.me/NaraXmusic"
+    "GROUP_LINK") or "t.me/jakanasokin"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/Sayonara_v2"
+    "OWNER_BOT") or "t.me/Gledeknihboss"
 
 
 # Last.fm Module
@@ -516,11 +517,11 @@ with bot:
                     buttons=[
                         [
                              Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",
-                                        "t.me/SayonaraUpdate"),
+                                        "t.me/fronsjahh"),
                              Button.url(f"{EMOJI_HELP} 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
-                                        "t.me/SayonaraUpdate")],
+                                        "t.me/jakanasokin")],
                              [Button.url("👤OWNER-BOT👤",
-                                        "t.me/Sayonara_v2")],
+                                        "t.me/Gledeknihboss")],
                     ]
                 )
 
@@ -546,7 +547,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⚡sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ⚡​\n\n**Mᴀɪɴ Mᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.1\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [{DEFAULTUSER}]({OWNER_BOT}) ".format(
+                    text=f"⚡ꜰʀᴏɴ-ᴜsᴇʀʙᴏᴛ​\n\n**Mᴀɪɴ Mᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.1\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [{DEFAULTUSER}]({OWNER_BOT}) ".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -565,9 +566,9 @@ with bot:
                         [
                             custom.Button.url(
                                 f"{REPO_NAME}",
-                                "https://github.com/Krisnadiwangga/Sayonara-Userbot"),
+                                "https://github.com/Kikuk23/Fron-Userbot"),
                             custom.Button.url(
-                                "sᴀʏᴏɴᴀʀᴀ",
+                                "ꜰʀᴏɴ",
                                 f"{OWNER_BOT}")] 
                     ],
                     link_preview=False,
@@ -606,9 +607,9 @@ with bot:
                     buttons=[
                         [
                             Button.url(f"{REPO_NAME}",
-                                       "https://github.com/krisnadiwangga/Sayonara-Userbot"),
-                            Button.url(f"{EMOJI_HELP} sᴜᴘᴘᴏʀᴛ​ {EMOJI_HELP} ", 
-                                       "t.me/NaraXmusic")],
+                                       "https://github.com/Kikuk23/Fron-Userbot"),
+                            Button.url(f"{EMOJI_HELP} ꜰʀᴏɴ​ {EMOJI_HELP} ", 
+                                       "t.me/jakanasokin")],
                         [Button.url(f"{EMOJI_HELP} ᴏᴡɴᴇʀ​ {EMOJI_HELP} ",
                                     f"{OWNER_BOT}"),
                             Button.url(f"{EMOJI_HELP} ɪɴsᴛᴀɢʀᴀᴍ​ {EMOJI_HELP} ",
