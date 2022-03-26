@@ -19,7 +19,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='W(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**WAR WAR PALAK BAPAK KAU WAR, SOK KERAS BANGET GOBLOK DI TONGKRONGAN JADI BABU DI TELE SOK JAGOAN.**")
+    await typew.edit("**𝘞𝘈𝘙 𝘞𝘈𝘙 𝘗𝘈𝘓𝘈 𝘉𝘈𝘗𝘈𝘒 𝘒𝘈𝘜 𝘞𝘈𝘙, 𝘚𝘖𝘒 𝘒𝘌𝘙𝘈𝘚 𝘉𝘈𝘕𝘎𝘌𝘛 𝘎𝘖𝘉𝘓𝘖𝘒 𝘋𝘐 𝘛𝘖𝘕𝘎𝘒𝘙𝘖𝘕𝘎𝘈𝘕 𝘑𝘈𝘋𝘐 𝘉𝘈𝘉𝘜 𝘋𝘐 𝘛𝘌𝘓𝘌 𝘚𝘖𝘒 𝘑𝘈𝘎𝘖𝘈𝘕.**")
     
 @register(outgoing=True, pattern='^.dih(?: |$)(.*)')
 async def typewriter(typew):
@@ -94,27 +94,27 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^I(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**KONTOL MASIH BENGKOK AJA BANGGA LU HAHAHAHA!!.**")
+    await typew.edit("**𝘑𝘈𝘒𝘈𝘕𝘈 𝘕𝘐𝘏 𝘉𝘖𝘚𝘚, 𝘔𝘈𝘜 𝘕𝘎𝘈𝘕𝘊𝘜𝘙𝘐𝘕 𝘎𝘊 𝘐𝘕𝘐 𝘚𝘈𝘉𝘐 𝘒𝘈𝘓𝘐 𝘠𝘈?!!.**")
               
 @register(outgoing=True, pattern='^Q(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**EHH GOBLOK LU SEMUA RIBUT SAMA GUA SINI NGENTOT!.**")
+    await typew.edit("**𝘌𝘏𝘏 𝘎𝘖𝘉𝘓𝘖𝘒𝘒 𝘓𝘜 𝘏𝘈𝘙𝘜𝘚 𝘚𝘖𝘗𝘈𝘕 𝘒𝘖𝘕𝘛𝘖𝘓 𝘚𝘈𝘔𝘈 𝘍𝘙𝘖𝘕.**")
               
 @register(outgoing=True, pattern='^R(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**AKU SAYANG KAMU MWAHHH😭.**")
+    await typew.edit("**𝘓𝘜 𝘔𝘌𝘕𝘋𝘐𝘕𝘎 𝘕𝘠𝘌𝘙𝘈𝘏 𝘈𝘑𝘈 𝘋𝘈𝘏 𝘋𝘈𝘙𝘐 𝘗𝘈𝘋𝘈 𝘎𝘜𝘈 𝘉𝘈𝘕𝘛𝘈𝘐 𝘕𝘐𝘏?.**")
               
 @register(outgoing=True, pattern='^T(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BABI!!KONTOL!!NGENTOT!!!.**")
+    await typew.edit("**𝘞𝘈𝘏𝘏𝘏𝘏 𝘕𝘐𝘏 𝘈𝘔𝘗𝘈𝘚 𝘈𝘔𝘈𝘛 𝘒𝘖𝘕𝘛𝘖𝘓 𝘎𝘈𝘋𝘈 𝘗𝘌𝘙𝘓𝘈𝘞𝘈𝘕𝘈𝘕 𝘕𝘠𝘈, 𝘗𝘈𝘋𝘈𝘏𝘈𝘓 𝘑𝘈𝘒𝘈𝘕𝘈 𝘋𝘈𝘛𝘌𝘕𝘎 𝘓𝘖𝘏 𝘒𝘖𝘕𝘛𝘖𝘓 𝘔𝘈𝘚𝘈 𝘎𝘈𝘋𝘈 𝘠𝘈𝘕𝘎 𝘚𝘈𝘔𝘉𝘜𝘛𝘛 𝘚𝘐 👎.**")
               
 @register(outgoing=True, pattern='^U(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BABI LU GOBLOK!!GANTENGAN JUGA GUA BHAHAHAHA.**")
+    await typew.edit("**𝘍𝘙𝘖𝘕 𝘎𝘈𝘕𝘛𝘌𝘕𝘎 𝘚𝘌𝘒𝘐𝘈𝘕 𝘛𝘌𝘙𝘐𝘔𝘈𝘒𝘈𝘚𝘐𝘏🙏.**")
               
 @register(outgoing=True, pattern='^.cantik(?: |$)(.*)')
 async def typewriter(typew):
