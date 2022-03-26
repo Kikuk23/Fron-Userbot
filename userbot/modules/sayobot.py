@@ -31,31 +31,31 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.sayo(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**kyy Peler☑️**")
-    await typew.edit("**kyy Peler✅**")
+    await typew.edit("**Lu Peler☑️**")
+    await typew.edit("**Lu Peler✅**")
     sleep(2)
-    await typew.edit("**Rendi Gilaa☑️**")
-    await typew.edit("**Rendi Gilaa✅**")
+    await typew.edit("**Lu Gilaa☑️**")
+    await typew.edit("**Lu Gilaa✅**")
     sleep(2)
-    await typew.edit("**Skyzu Depresi☑️**")
-    await typew.edit("**Skyzu Depresi✅**")
+    await typew.edit("**Lu Depresi☑️**")
+    await typew.edit("**Lu Depresi✅**")
     sleep(2)
-    await typew.edit("**Kitaro Gajelas☑️**")
-    await typew.edit("**Kitaro Gajelas✅**")
+    await typew.edit("**Lu Gajelas☑️**")
+    await typew.edit("**Lu Gajelas✅**")
     sleep(2)
-    await typew.edit("**Bagas goblok!☑️**")
-    await typew.edit("**Bagas Goblok banget!✅**")
+    await typew.edit("**Lu goblok!☑️**")
+    await typew.edit("**Lu Goblok banget!✅**")
     sleep(2)
-    await typew.edit("**Kyy² kang gabut!☑️**")
-    await typew.edit("**Kyy² kang gabut!✅**")
+    await typew.edit("**Lu kang gabut!☑️**")
+    await typew.edit("**Lu kang gabut!✅**")
     sleep(2)
-    await typew.edit("**Tonic,MengRibet☑️**")
-    await typew.edit("**Tonic,MengRibet✅**")
+    await typew.edit("**Lu,MengRibet☑️**")
+    await typew.edit("**Lu,MengRibet✅**")
     sleep(2)
     await typew.edit("**Penggali,Mengintil☑️**")
     await typew.edit("**Penggali,Mengintil✅**")
     sleep(2)
-    await typew.edit("**CUMA SAYO YANG BENER !**")
+    await typew.edit("**CUMA FRON YANG BENER !**")
     sleep(3
 )
 
@@ -97,20 +97,20 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`SUCCESSFULLY COMPELED`")
     sleep(1)
-    await typew.edit("`💀SUPPORT` @NaraXmusic 💀 CENGHA` @Sayonara_story")
+    await typew.edit("`💀SUPPORT` @jakanasokin 💀 CENGHA` @fronsjahh")
 
 
 
 
 CMD_HELP.update({
-    "sayobot":
-    "`.sayo`\
+    "fron":
+    "`.fron`\
     \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
     \n\n`.lah`\
     \nUsage: hiks\
     \n\n`.gc`\
     \nUsage: support\
-    \n\n`.punten` ; `.sayonara`\
+    \n\n`.punten` ; `.fron`\
     \nUsage: misi."
 })
