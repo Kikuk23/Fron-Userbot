@@ -1,4 +1,4 @@
-# System Stats SAYONARA-USERBOT
+# System Stats FRON-USERBOT
 # by fix rendy
 import asyncio
 from asyncio import create_subprocess_exec as asyncrunapp
@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ Versi:** \n "
+            "**☛**ꜰʀᴏɴ-ᴜsᴇʀʙᴏᴛ Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -218,17 +218,17 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:say|rambot)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:fron|rambot)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`PINGING.....`")
     await asyncio.sleep(1)
-    await alive.edit("💀")
+    await alive.edit("🐢")
     await asyncio.sleep(3)
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[sᴀʏᴏɴᴀʀᴀ](t.me/Sayonara_v2) \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[ꜰʀᴏɴ](t.me/Gledeknihboss) \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__} \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
@@ -261,7 +261,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f" **💀sᴀʏᴏɴᴀʀᴀ - ᴜsᴇʀʙᴏᴛ💀** \n"
+        f" **💀ꜰʀᴏɴ-ᴜsᴇʀʙᴏᴛ💀** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
         f"❃ **👑ᴏᴡɴᴇʀ**       ➥ `{DEFAULTUSER}` \n"
         f"❃ **🤠ᴜsᴇʀɴᴀᴍᴇ**    ➥ `@{user.username}` \n"
@@ -270,7 +270,7 @@ async def amireallyalive(alive):
         f"❃ **😎ᴠᴇʀsɪ ʙᴏᴛ**   ➥ `7.1` \n"
         f"❃ **📕ᴍᴏᴅᴜʟ**       ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝗚𝗥𝗢𝗨𝗣](t.me/SayonaraUpdate) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
+        f"[{REPO_NAME}](https://github.com/Kikuk23/Fron-Userbot) || [𝗚𝗥𝗢𝗨𝗣](t.me/jakanasokin) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
@@ -314,9 +314,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [Git](https://github.com/krisnadiwangga/Sayonara-Userbot ) \n"
-        f"┣  `Support  :` [Join group](https://t.me/SayonaraSupport) \n"
-        f"┣  `Owner    :` [Sayonara](https://t.me/Sayonara_banh) \n"
+        f"┣  `GitHub   :` [Git](https://github.com/Kikuk23/Fron-Userbot ) \n"
+        f"┣  `Support  :` [Join group](https://t.me/jakanasokin) \n"
+        f"┣  `Owner    :` [Fron](https://t.me/Gledeknihboss) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
@@ -356,22 +356,22 @@ async def amireallyalive(alive):
     await alive.edit("**Prossing** **Boostin**")
     await alive.edit("**Prossing** **Boosting**")
     await asyncio.sleep(1)
-    await alive.edit("**Prossing Boosting** **S**")
-    await alive.edit("**Prossing Boosting** **Sa**")
-    await alive.edit("**Prossing Boosting** **Say**")
-    await alive.edit("**Prossing Boosting** **Sayo**")
-    await alive.edit("**Prossing Boosting** **Sayon**")
-    await alive.edit("**Prossing Boosting** **Sayona**")
-    await alive.edit("**Prossing Boosting** **Sayonar**")
-    await alive.edit("**Prossing Boosting** **Sayonnara**")
+    await alive.edit("**Prossing Boosting** **H**")
+    await alive.edit("**Prossing Boosting** **Hu**")
+    await alive.edit("**Prossing Boosting** **Huf**")
+    await alive.edit("**Prossing Boosting** **Hufr**")
+    await alive.edit("**Prossing Boosting** **Hufro**")
+    await alive.edit("**Prossing Boosting** **Hufron**")
+    await alive.edit("**Prossing Boosting** **Hufronn**")
+    await alive.edit("**Prossing Boosting** **Huftronn**")
     await asyncio.sleep(1)
-    await alive.edit("**Proses Boosting** **Sayonara U**")
-    await alive.edit("**Proses Boosting** **Sayonara Us**")
-    await alive.edit("**Proses Boosting** **Sayonara Use**")
-    await alive.edit("**Proses Boosting** **Sayonara User**")
-    await alive.edit("**Proses Boosting** **Sayonara Userb**")
-    await alive.edit("**Proses Boosting** **Sayonara Userbo**")
-    await alive.edit("**Proses Boosting** **Sayonara Userbot**")
+    await alive.edit("**Proses Boosting** **Fron U**")
+    await alive.edit("**Proses Boosting** **Fron Us**")
+    await alive.edit("**Proses Boosting** **Fron Use**")
+    await alive.edit("**Proses Boosting** **Fron User**")
+    await alive.edit("**Proses Boosting** **Fron Userb**")
+    await alive.edit("**Proses Boosting** **Fron Userbo**")
+    await alive.edit("**Proses Boosting** **Fron Userbot**")
     await asyncio.sleep(1)
     await alive.edit("8✊===D")
     await alive.edit("8=✊==D")
@@ -396,14 +396,14 @@ async def amireallyalive(alive):
     await alive.edit("❄")
     await asyncio.sleep(3)
     output = (
-        f"**🐥Sayonara Userbot is actived!🐥** \n\n"
+        f"**🐥Fron Userbot is actived!🐥** \n\n"
         f"┣❏😎 **Master**: {DEFAULTUSER} \n"
         f"┣❏🧐 **Username**: **@{user.username}** \n"
         f"┣❏🐍 **Python**:  Versi {python_version()} \n"
         f"┣❏🤖 **Bot Versi**: {BOT_VER} \n"
         f"┣❏📂 **Plugins**: {len(modules)} Plugins \n"
         f"┣❏🔮 **Telethon**: Versi {version.__version__} \n\n"
-        f"📍 REPO [sᴀʏᴏɴᴀʀᴀ - ᴜsᴇʀʙᴏᴛ](https://github.com/krisnadiwangga/Sayonara-Userbot)\n")
+        f"📍 REPO [ꜰʀᴏɴ - ᴜsᴇʀʙᴏᴛ](https://github.com/Kikuk23/Fron-Userbot)\n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
