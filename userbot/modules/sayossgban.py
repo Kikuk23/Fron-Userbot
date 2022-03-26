@@ -83,7 +83,7 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`Proses Gbanning Whacking...!`")
+        dark = await dc.reply("`Otw Gban Ya Kontol...!`")
     else:
         dark = await dc.edit("`Memproses Global Banned Whacking!!!`")
     me = await userbot.client.get_me()
@@ -128,7 +128,7 @@ async def gben(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await dark.edit(f"`Global Banned Aktif ya Blok✅`")
+                await dark.edit(f"`MAKANNYA JANGAN KE BOCAH SEKUTU KONTOL✅`")
             except BaseException:
                 b += 1
     else:
