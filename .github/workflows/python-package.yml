@@ -2,9 +2,9 @@
 
 on:
   push:
-    branches: [ Sayonara-Userbot ]
+    branches: [ Fron-Userbot ]
   pull_request:
-    branches: [ Sayonara-Userbot ]
+    branches: [ Fron-Userbot ]
 
 jobs:
   build:
@@ -34,4 +34,4 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-[![Python package](https://github.com/krisnadiwangga/Sayonara-Userbot/actions/workflows/python-package.yml/badge.svg?branch=Sayonara-Userbot&event=workflow_dispatch)](https://github.com/krisnadiwangga/Sayonara-Userbot/actions/workflows/python-package.yml)
+[![Python package](https://github.com/Kikuk23/Fron-Userbot/actions/workflows/python-package.yml/badge.svg?branch=Fron-Userbot&event=workflow_dispatch)](https://github.com/Kikuk23/Fron-Userbot/actions/workflows/python-package.yml)
