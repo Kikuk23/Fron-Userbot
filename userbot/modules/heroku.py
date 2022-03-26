@@ -185,7 +185,7 @@ async def dyno_usage(dyno):
             AppMinutes = math.floor(AppQuotaUsed % 60)
 
             await dyno.edit(
-                f"★ **⚡INFO KUOTA SAYONARA⚡** ★\n╔══════━━━━━━━══════╗ \n"
+                f"★ **⚡INFO KUOTA FRON⚡** ★\n╔══════━━━━━━━══════╗ \n"
                 f"➠**Penggunaan Kuota :** `{app.name}` \n"
                 f"➠ **Hasil** :  `{AppHours}` **Jam** - `{AppMinutes}` **Menit**\n"
                 f"➠ **Persen** : `{AppPercentage}`**%**\n"
@@ -195,8 +195,8 @@ async def dyno_usage(dyno):
                 f"➠ **Persen** :  `{percentage}`**%**\n"
                 f"╚══════━━━━━━━══════╝ \n"
                 f"➠ **OWNER**  : {ALIVE_NAME} \n"
-                f"➠ **REPO** : [Sayonara-Userbot](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
-                f"➠ **DEVELOPER** : [sᴀʏᴏɴᴀʀᴀ​](https://t.me/sayonara_nih) \n"
+                f"➠ **REPO** : [Fron-Userbot](https://github.com/Kikuk23/Fron-Userbot) \n"
+                f"➠ **DEVELOPER** : [ꜰʀᴏɴ​](https://t.me/Gledeknihboss) \n"
                )
             await asyncio.sleep(5)
             await event.delete()
