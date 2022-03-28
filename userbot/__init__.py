@@ -548,7 +548,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⚡ꜰʀᴏɴ-ᴜsᴇʀʙᴏᴛ​\n\n**Mᴀɪɴ Mᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.1\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [{DEFAULTUSER}]({OWNER_BOT}) ".format(
+                    text=f"**⚡ꜰʀᴏɴ-ᴜsᴇʀʙᴏᴛ**\n\n❥ **𝙾𝚆𝙽𝙴𝚁 :** [𝙵𝚁𝙾𝙽](https://t.me/Gledeknihboss)\n❥ **𝙱𝙾𝚃 𝚅𝙴𝚁 :** 7.1\n❥ **𝙹𝚄𝙼𝙻𝙰𝙷 :** `{len(dugmeler)}` 𝙼𝙾𝙳𝚄𝙻𝙴𝚂".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
