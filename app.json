@@ -1,7 +1,7 @@
 {
   "name": "Fron-Userbot",
   "description": "[Fron-Userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/d21c5e0c753828524207c.jpg",
+  "logo": "https://telegra.ph/file/2b177d85ac3cbd317f8d7.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -24,7 +24,7 @@
     },
     "ALIVE_LOGO": {
       "description": "BUAT ALIVE LOGO MU SENDIRI.",
-      "value": "https://telegra.ph/file/d21c5e0c753828524207c.jpg",
+      "value": "https://telegra.ph/file/2b177d85ac3cbd317f8d7.jpg",
       "required": true
      },
      "STRING_SESSION": {
@@ -107,7 +107,7 @@
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "Untuk menampilkam mode tombol .rhelp, Ambil token di @BotFather",
+      "description": "Untuk menampilkam mode tombol .xhelp, Ambil token di @BotFather",
       "required": true
     },
     "BOT_USERNAME": {
