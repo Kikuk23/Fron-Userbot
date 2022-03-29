@@ -19,7 +19,7 @@
 
 <p align="center">
 
-[<img src="https://telegra.ph/file/d21c5e0c753828524207c.jpg">](https://t.me/NaraXmusic) 
+[<img src="https://telegra.ph/file/2b177d85ac3cbd317f8d7.jpg">](https://t.me/NaraXmusic) 
   
 #### JOIN YA KE FRON SUPPORT!!
 
