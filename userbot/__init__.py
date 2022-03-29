@@ -236,17 +236,17 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/d21c5e0c753828524207c.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/2b177d85ac3cbd317f8d7.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/d21c5e0c753828524207c.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/2b177d85ac3cbd317f8d7.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/hfrnsrhmn"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🎗"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "💮"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
