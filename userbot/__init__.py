@@ -201,7 +201,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
 # Untuk Perintah .vegetabot (alive)
-VEGETA_TEKS_KOSTUM = os.environ.get("SAYONARA_TEKS_KOSTUM") or "ㅤ"
+VEGETA_TEKS_KOSTUM = os.environ.get("FRON_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
 REPO_NAME = os.environ.get("REPO_NAME") or "ꜰʀᴏɴ-ᴜsᴇʀʙᴏᴛ"
@@ -236,11 +236,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/2b177d85ac3cbd317f8d7.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/d21c5e0c753828524207c.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/2b177d85ac3cbd317f8d7.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/d21c5e0c753828524207c.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/hfrnsrhmn"
