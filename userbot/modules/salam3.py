@@ -94,7 +94,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^I(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**!!.**")
+    await typew.edit("**𝘎𝘈𝘜𝘚𝘈𝘏 𝘈𝘓𝘈𝘠 𝘕𝘈𝘗𝘈 𝘒𝘖𝘕𝘛𝘖𝘓 𝘔𝘈𝘓𝘜 𝘚𝘈𝘔𝘈 𝘑𝘌𝘔𝘉𝘜𝘛 𝘕𝘈𝘗𝘈😭!!.**")
               
 @register(outgoing=True, pattern='^Q(?: |$)(.*)')
 async def typewriter(typew):
