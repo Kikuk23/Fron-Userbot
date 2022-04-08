@@ -64,6 +64,12 @@ async def typewriter(typew):
     await typew.edit("**Gajelas Kontolll....**")
 
 
+@register(outgoing=True, pattern='^.ankhrm(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**WOY KONTOL ANAK HARAM YANG LAHIR NYA DARI LOBANG PANTAT MASUK KE NERAKA JAHANNAM GA USAH GAYA GAYAAN PENGEN PAMAERTA KAU ANAK YATIM YANG SANGAT HINA KAYA KELUARGA ELU YANG GA PUNYA MALU SAMA SEKALI TAPI MASI MENCOBA UNTUK DAFYAR TNI PADAHAL KAU ANAK PKI YANG HINA HAHAHAHAHAHAHAJAJAHAH ANAK KONTOL.**")
+
+
 @register(outgoing=True, pattern='^.gbgn(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -134,6 +140,8 @@ CMD_HELP.update({
 \n\n.yb\
 \nUsage:\
 \n\n.gjk\
+\nUsage:"
+\n\n.ankhrm\
 \nUsage:"
 })
 
