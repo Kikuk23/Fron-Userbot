@@ -140,7 +140,7 @@ CMD_HELP.update({
 \n\n.yb\
 \nUsage:\
 \n\n.gjk\
-\nUsage:"
+\nUsage:\
 \n\n.ankhrm\
 \nUsage:"
 })
